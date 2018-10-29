@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\アプリケーション">
+      <UniqueIdentifier>{80a0ed63-8353-4be9-8b07-5e88fc764d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{261e4b59-76da-4dad-be07-0b0b30d4ad5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\グラフィック">
+      <UniqueIdentifier>{adb05454-94c8-4905-afe2-bc00e3ec5a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\タイトル">
+      <UniqueIdentifier>{930e79bf-b602-4a9b-b657-8f74b4932723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\プレイ">
+      <UniqueIdentifier>{b00d6592-8904-4eec-bf81-719faee5ee6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\オプション">
+      <UniqueIdentifier>{820f7af0-b90e-4a3d-b78b-714a4202ae15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\アニメーション">
+      <UniqueIdentifier>{167eb4c9-30b5-440c-8c88-a60836fa8bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\サウンド">
+      <UniqueIdentifier>{6189c952-3362-4840-8785-e045a598ec9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>ソース ファイル\グラフィック</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル\アプリケーション</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScene.cpp">
+      <Filter>ソース ファイル\シーン\オプション</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>ソース ファイル\シーン\プレイ</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\シーン\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>ソース ファイル\シーン\プレイ</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>ソース ファイル\アニメーション</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル\サウンド</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>ソース ファイル\グラフィック</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScene.h">
+      <Filter>ソース ファイル\シーン\オプション</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>ソース ファイル\シーン\プレイ</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ソース ファイル\シーン\タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>ソース ファイル\シーン\プレイ</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>ソース ファイル\アニメーション</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ソース ファイル\サウンド</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
